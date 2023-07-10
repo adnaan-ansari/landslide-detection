@@ -1,5 +1,5 @@
 
-# Geotagged Image Pixel Coordinates to CSV Converter
+# Geotagged Image Coordinates to Pixel Image Coordinates CSV Converter
 
 This repository contains a script that converts a geotagged image into a CSV file containing pixel coordinates.
 
