@@ -1,4 +1,4 @@
-# landslide-detection
+
 # Geotagged Image Pixel Coordinates to CSV Converter
 
 This repository contains a script that converts a geotagged image into a CSV file containing pixel coordinates.
@@ -22,7 +22,7 @@ This repository contains a script that converts a geotagged image into a CSV fil
 5. Add the attributes in the following sequence: `fid`, `DN`, `width`, `height`, `center_x`, `center_y`.
    - Note: Generate the required attributes using the field calculator of the attribute table.
    - Note: There is an additional bounding box in the table representing the whole image, which should be discarded.
-6. Use the provided code [link to the code] to convert the table into pixel coordinates.
+6. Use the provided code [Convert.py](https://github.com/adnaan-ansari/landslide-detection/blob/main/convert.py) to convert the table into pixel coordinates.
    - The code outputs a CSV file in pixel format, which should be further verified.
 
 Since the images we are dealing with are large (approximately 15000x8000 pixels), it is recommended to convert them into smaller equal-sized images. This can be achieved using the following steps in QGIS:
